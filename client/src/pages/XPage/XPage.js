@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { XComponentOne, XComponentTwo } from '../../components/XComponent'
 
 class XPage extends Component {
