@@ -12,15 +12,6 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-/* LOGGERS */
-/* morgan set to 'dev':
-	RED         Server Error Codes
-	YELLOW      Client Error Codes
-	CYAN        Redirection Codes
-	UNCOLORED   Other Codes         */
-const logger = require('morgan');
-app.use(logger('dev'));
-
 /*****************|
 |* SET UP ROUTES *| 
 |*****************/
